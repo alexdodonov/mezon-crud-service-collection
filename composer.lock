@@ -1,0 +1,219 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "228b8ab163464cc380407a37834d882a",
+    "packages": [
+        {
+            "name": "mezon/crud-service-client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexdodonov/mezon-crud-service-client.git",
+                "reference": "f9d4d57f30b3c95221d73e0bf9e83b4a6d670a85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexdodonov/mezon-crud-service-client/zipball/f9d4d57f30b3c95221d73e0bf9e83b4a6d670a85",
+                "reference": "f9d4d57f30b3c95221d73e0bf9e83b4a6d670a85",
+                "shasum": ""
+            },
+            "require": {
+                "mezon/functional": ">=1.0.0",
+                "mezon/service-client": ">=1.0.0",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mezon\\CrudService\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dodonov Alexey",
+                    "email": "alexey@dodonov.pro",
+                    "homepage": "http://gdzone.ru",
+                    "role": "Founder"
+                }
+            ],
+            "description": "Small crud-service-client script",
+            "homepage": "https://github.com/alexdodonov/mezon-crud-service-client",
+            "time": "2020-02-24T11:20:56+00:00"
+        },
+        {
+            "name": "mezon/custom-client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexdodonov/mezon-custom-client.git",
+                "reference": "a221ea2ed04169e9d847635edcef3cd422f745a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexdodonov/mezon-custom-client/zipball/a221ea2ed04169e9d847635edcef3cd422f745a4",
+                "reference": "a221ea2ed04169e9d847635edcef3cd422f745a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mezon\\CustomClient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dodonov Alexey",
+                    "email": "alexey@dodonov.pro",
+                    "homepage": "http://gdzone.ru",
+                    "role": "Founder"
+                }
+            ],
+            "description": "Small custom client routine",
+            "homepage": "https://github.com/alexdodonov/mezon-custom-client",
+            "time": "2020-02-17T19:34:31+00:00"
+        },
+        {
+            "name": "mezon/dns-client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexdodonov/mezon-dns-client.git",
+                "reference": "0b5ca762a51abe13332c3338e67ef0a04dc58650"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexdodonov/mezon-dns-client/zipball/0b5ca762a51abe13332c3338e67ef0a04dc58650",
+                "reference": "0b5ca762a51abe13332c3338e67ef0a04dc58650",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mezon\\DnsClient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dodonov Alexey",
+                    "email": "alexey@dodonov.pro",
+                    "homepage": "http://gdzone.ru",
+                    "role": "Founder"
+                }
+            ],
+            "description": "Small dns-client script",
+            "homepage": "https://github.com/alexdodonov/mezon-dns-client",
+            "time": "2020-02-18T21:20:37+00:00"
+        },
+        {
+            "name": "mezon/functional",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexdodonov/mezon-functional.git",
+                "reference": "9f92bb4084d140e7d34d208e6fdc7e370c292d37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexdodonov/mezon-functional/zipball/9f92bb4084d140e7d34d208e6fdc7e370c292d37",
+                "reference": "9f92bb4084d140e7d34d208e6fdc7e370c292d37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mezon\\Functional\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dodonov Alexey",
+                    "email": "alexey@dodonov.pro",
+                    "homepage": "http://gdzone.ru",
+                    "role": "Founder"
+                }
+            ],
+            "description": "Small and fast framework for functional programming",
+            "homepage": "https://github.com/alexdodonov/mezon-functional",
+            "time": "2020-02-13T21:26:22+00:00"
+        },
+        {
+            "name": "mezon/service-client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexdodonov/mezon-service-client.git",
+                "reference": "bc84cae4e6321b6d0abf9d5cb6926fc2591be911"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexdodonov/mezon-service-client/zipball/bc84cae4e6321b6d0abf9d5cb6926fc2591be911",
+                "reference": "bc84cae4e6321b6d0abf9d5cb6926fc2591be911",
+                "shasum": ""
+            },
+            "require": {
+                "mezon/custom-client": "^1.0.0",
+                "mezon/dns-client": "^1.0.0",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mezon\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dodonov Alexey",
+                    "email": "alexey@dodonov.pro",
+                    "homepage": "http://gdzone.ru",
+                    "role": "Founder"
+                }
+            ],
+            "description": "Small service client script",
+            "homepage": "https://github.com/alexdodonov/mezon-service-client",
+            "time": "2020-02-24T10:51:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0"
+    },
+    "platform-dev": []
+}
